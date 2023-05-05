@@ -89,6 +89,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+.main-banner__2{
+    background-image: linear-gradient(to right, black -10%, rgba(255, 0, 0, 0) 30%);
+    width: 100%;
+    height: 591px;
+}
 .main-section{
     width: 700px;
 }
@@ -99,14 +104,12 @@ body{
     line-height: 60px;
     padding-top: 100px;
     margin-top: 10px;
-    text-shadow: 0px 0px 80px black;
 }
 .main-section__subtitle{
     color: white;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-family: sans-serif;
-    text-shadow: 0px 0px 50px black;
     line-height: 26px;
 }
 .main-secction__button{
