@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!-- Header -->
+
+
+    <!-- Header section -->
+
     <header class="main-header">
         <div class="main-header__1">
             <div class="contanier">
@@ -43,21 +46,23 @@
                 <nav class="main-navigation space-between">
                     <ul class="main-navigation__items space-between">
                         <li class="main-navigation__item">
-                            <a href="#">Bosh sahifa</a>
+                            <a href="index.html">Bosh sahifa</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Katalog</a>
+                            <a href="#kitchen-section">Katalog</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Biz haqimizda</a>
+                            <a href="#about-me">Biz haqimizda</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Aloqa</a>
+                            <a href="#networks">Aloqa</a>
                         </li>
                     </ul>
                     <div class="serch-box space-between">
                         <input class="serch" type="text" placeholder="Matnni kiriting...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <button class="serch-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
                     </div>
                     <img class="shopping-icon" src="img/shopping-icon.svg" alt="">
                 </nav>
@@ -65,10 +70,12 @@
         </div>
     </header>
 
+
     <!-- main section -->
+
     <div class="main-banner">
-        <div class="main-banner__2">
-            <div class="contanier">
+        <div class="contanier">
+            <div class="main-banner__2">
                 <section class="main-section">
                     <h1 class="main-section__title">
                         NEW <br> COLLECTION
@@ -76,16 +83,18 @@
                     <p class="main-section__subtitle">
                         Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful.
                     </p>
-                    <button class="main-secction__button">
-                        Buyurtma qilish -->
-                        <!-- strelka icon -->
+                    <button class="main-secction__button button">
+                        Buyurtma qilish
+                        <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
                 </section>
             </div>
         </div>
     </div>
 
-    <!-- statistics -->
+
+    <!-- statistics section -->
+
     <div class="contanier">
         <section class="statistics-section">
             <div class="statistics-items">
@@ -119,20 +128,22 @@
         </section>
     </div>
 
-    <!-- kitchen mebel -->
+
+    <!-- kitchen mebel section -->
+
     <div class="contanier">
-        <section class="kitchen-section">
+        <section id="kitchen-section" class="kitchen-section">
             <div class="kitchen-header space-between">
                 <div class="kitchen-header__left">
-                    <h2 class="kitchen-section__title">Oshxona mebellari</h2>
-                    <p class="kitchen-section__subtitle">Furniture design</p>
+                    <h2 class="kitchen-section__title title">Oshxona mebellari</h2>
+                    <p class="kitchen-section__subtitle subtitle">Furniture design</p>
                 </div>
                 <div class="kitchen-header__right">
                     <button>
-                        <
+                        <i class="fa-solid fa-angle-left"></i>
                     </button>
                     <button>
-                        >
+                        <i class="fa-solid fa-angle-right"></i>
                     </button>
                 </div>
             </div>
@@ -220,6 +231,201 @@
             </div>
         </section>
     </div>
+
+
+    <!-- Discount Section -->
+
+    <div class="discount-background">
+        <section class="discount-section">
+            <div class="contanier">
+                <div class="main-discount">
+                    <div class="main-discount__left">
+                        <h3 class="main-discount__title title">
+                            Chegirma
+                        </h3>
+                        <p class="main-discount__subtitle subtitle">
+                            Classic
+                        </p>
+                        <div class="main-discount__number-box">
+                            <div class="main-discount__number-box__1">
+                                25
+                            </div>
+                            <div class="main-discount__number-box__2">
+                                <p class="number-box__2-1">%</p>
+                                <p class="number-box__2-2">Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="main-discount__line"></span>
+                    <div class="main-discount__right">
+                        <img src="img/kisspng-furniture-kitchen-cabinet-cabinetry-retro-kitchen-cabinet-5a7 1.png" alt="">
+                    </div>
+                </div>
+                <div class="discount-button__box">
+                    <button class="discount-button button">
+                        Buyurtma qilish
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <!-- About me section -->
+
+    <div class="contanier">
+        <section id="about-me" class="about-me">
+            <div class="about-me__info">
+                <h3 class="about-me__title title">
+                    Biz haqimizda
+                </h3>
+                <p class="about-me__subtitle">
+                    Lorem ipsum is a name for a common type of placeholder text. Also known as filler or
+                    dummy text, this is simply copy that serves to fill a space without actually saying anything
+                    meaningful.
+                </p>
+
+                <div class="about-me__video">
+                    <img src="img/Rectangle 1642.png" alt="Pratatip video img">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Customers section -->
+
+    <div class="contanier">
+        <section class="customers-section">
+            <h3 class="customers-section__title title">
+                Bizning mijozlarimiz
+            </h3>
+
+            <div class="customers-section__brend-items">
+                <img class="customers-section__brend-item" src="img/Najot Ta'lim.png" alt="Najot Ta'lim">
+                <img class="customers-section__brend-item" src="img/O'zbekgidroenergo.png" alt="O'zbekgidroenergo">
+                <img class="customers-section__brend-item" src="img/Grand Capital.png" alt="Grand Capital">
+                <img class="customers-section__brend-item" src="img/NRG.png" alt="NRG">
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Selected secction -->
+
+    <div class="contanier">
+        <section id="selected-section" class="selected-section">
+            <div class="selected-header space-between">
+                <div class="selected-header__left">
+                    <h2 class="selected-section__title title">Eng ko'p tanlangan</h2>
+                    <p class="selected-section__subtitle subtitle">Furniture design</p>
+                </div>
+                <div class="selected-header__right">
+                    <button>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="selected-items space-between">
+                <div class="selected-item">
+                    <div class="selected-item__img-1">
+                        <div class="test-item__image-1">New</div>
+                    </div>
+                    <div class="selected-item__info">
+                        <div class="selected-item__mini-box">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span></span>
+                            <i class="fa-regular fa-eye"></i>
+                            <span></span>
+                            <img class="shopping-icon-selected" src="img/shopping-icon-kitchen.svg" alt="">
+                        </div>
+                        <h4 class="selected-item__title">
+                            Morezza
+                        </h4>
+                        <p class="selected-item__number">
+                            2.560.000 so'm
+                        </p>
+                    </div>
+                </div>
+                <div class="selected-item">
+                    <div class="selected-item__img-2">
+                        <div class="test-item__image-2">New -15%</div>
+                    </div>
+                    <div class="selected-item__info">
+                        <div class="selected-item__mini-box">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span></span>
+                            <i class="fa-regular fa-eye"></i>
+                            <span></span>
+                            <img class="shopping-icon-selected" src="img/shopping-icon-kitchen.svg" alt="">
+                        </div>
+                        <h4 class="selected-item__title">
+                            Royal
+                        </h4>
+                        <p class="selected-item__number">
+                            2.560.000 so'm
+                        </p>
+                    </div>
+                </div>
+                <div class="selected-item">
+                    <div class="selected-item__img-3">
+                        <div class="test-item__image-1">-25%</div>
+                    </div>
+                    <div class="selected-item__info">
+                        <div class="selected-item__mini-box">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span></span>
+                            <i class="fa-regular fa-eye"></i>
+                            <span></span>
+                            <img class="shopping-icon-selected" src="img/shopping-icon-kitchen.svg" alt="">
+                        </div>
+                        <h4 class="selected-item__title">
+                            Classic
+                        </h4>
+                        <p class="selected-item__number">
+                            2.560.000 so'm
+                        </p>
+                    </div>
+                </div>
+                <div class="selected-item">
+                    <div class="selected-item__image">
+                        <img src="img/selected-4.png" alt="selected-image">
+                    </div>
+                    <div class="selected-item__info">
+                        <div class="selected-item__mini-box">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span></span>
+                            <i class="fa-regular fa-eye"></i>
+                            <span></span>
+                            <img class="shopping-icon-selected" src="img/shopping-icon-kitchen.svg" alt="">
+                        </div>
+                        <h4 class="selected-item__title">
+                            Classic
+                        </h4>
+                        <p class="selected-item__number">
+                            2.560.000 so'm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Networks section -->
+    <div class="discount-background">
+        <div class="contanier">
+            <section id="networks" class="networks">
+
+            </section>
+        </div>
+    </div>
+
+
     <!-- TEST hr LINE -->
     <hr style="margin-top: 500px;">
 </body>
